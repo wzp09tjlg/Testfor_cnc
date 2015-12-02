@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--侧滑相关-->
+    <declare-styleable name="SlidingMenu">
+        <attr name="mode">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="viewAbove" format="reference" />
+        <attr name="viewBehind" format="reference" />
+        <attr name="behindOffset" format="dimension" />
+        <attr name="behindWidth" format="dimension" />
+        <attr name="behindScrollScale" format="float" />
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowWidth" format="dimension" />
+        <attr name="fadeEnabled" format="boolean" />
+        <attr name="fadeDegree" format="float" />
+        <attr name="selectorEnabled" format="boolean" />
+        <attr name="selectorDrawable" format="reference" />
+    </declare-styleable>
+    <item name="selected_view" type="id" />
+
+    <!--gridview相关-->
+    <declare-styleable name="lbBaseGridView">
+        <attr name="focusOutFront" format="boolean" />
+        <attr name="focusOutEnd" format="boolean" />
+        <attr name="horizontalMargin" format="dimension" />
+        <attr name="verticalMargin" format="dimension" />
+        <attr name="android:gravity" />
+    </declare-styleable>
+    <declare-styleable name="lbHorizontalGridView">
+        <attr name="rowHeight" format="dimension">
+            <enum name="wrap_content" value="-2" />
+        </attr>
+        <attr name="numberOfRows" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="lbVerticalGridView">
+        <attr name="columnWidth" format="dimension">
+            <enum name="wrap_content" value="-2" />
+        </attr>
+        <attr name="numberOfColumns" format="integer" />
+    </declare-styleable>
+
+    <!--citypicker相关-->
+    <declare-styleable name="NumberPicker">
+        <attr name="normalTextColor" format="color" />
+        <attr name="normalTextSize" format="dimension" />
+        <attr name="selecredTextColor" format="color" />
+        <attr name="selecredTextSize" format="dimension" />
+        <attr name="unitHight" format="dimension" />
+        <attr name="itemNumber" format="integer"/>
+        <attr name="lineColor" format="color" />
+        <attr name="maskHight" format="dimension"/>
+        <attr name="noEmpty" format="boolean"/>
+        <attr name="isEnable" format="boolean"/>
+    </declare-styleable>
+
+    <!--selfView相关-->
+    <declare-styleable name="SelfView">
+        <attr name="sideColor" format="color"/>
+        <attr name="imgId" format="reference"/>
+        <attr name="excircleR" format="float"/>
+        <attr name="incircleR" format="float"/>
+    </declare-styleable>
+</resources>

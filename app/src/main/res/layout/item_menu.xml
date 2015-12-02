@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:background="@drawable/item_menu_selector">
+   <TextView
+       android:id="@+id/menu_item_text"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:textSize="@dimen/dimen_30sp"/>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_1dp"
+    android:src="@drawable/icon_left_split"/>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen_300dp"
+    android:layout_height="@dimen/dimen_300dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="@drawable/bg_keypad_selector">
+    <TextView
+        android:id="@+id/cnc_text_search_num"
+        android:layout_width="@dimen/dimen_40dp"
+        android:layout_height="@dimen/dimen_40dp"
+       android:layout_centerHorizontal="true"
+        android:textSize="@dimen/dimen_40sp"
+        android:textColor="#ffffff"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/cnc_img_DC"
+        android:layout_width="@dimen/dimen_42dp"
+        android:layout_height="@dimen/dimen_42dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/cnc_text_search_desc"
+        android:layout_width="@dimen/dimen_28dp"
+        android:layout_height="@dimen/dimen_28dp"
+        android:layout_below="@+id/cnc_text_search_num"
+        android:textSize="@dimen/dimen_28sp"/>
+</RelativeLayout>

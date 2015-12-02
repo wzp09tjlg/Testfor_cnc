@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <SurfaceView
+        android:id="@+id/cnc_surf_MyVideo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        </SurfaceView>
+    <Button
+        android:id="@+id/cnc_btn_start"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_50dp"
+        android:text="@string/start"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/dimen_200dp"
+        />
+    <Button
+        android:id="@+id/cnc_btn_stop"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_50dp"
+        android:text="@string/stop"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/dimen_400dp"
+        />
+    <Button
+        android:id="@+id/cnc_btn_cancel"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_50dp"
+        android:text="@string/cancel"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/dimen_600dp"
+        />
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/cnc_btn_get_prefence"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:text="@string/get"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/cnc_btn_save_prefence"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:text="@string/save"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/cnc_btn_clear_prefence"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_50dp"
+        android:text="clear"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/cnc_text_shareprefence"
+        android:layout_width="@dimen/dimen_1920dp"
+        android:layout_height="@dimen/dimen_50dp"
+        android:text="this is nothing"
+        android:gravity="center"
+        />
+</LinearLayout>

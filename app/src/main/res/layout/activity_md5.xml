@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/cnc_btn_md5_enc"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:text="@string/md5_enc"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/cnc_btn_md5_unenc"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@+id/cnc_btn_md5_enc"
+        android:text="@string/md5_unenc"
+        android:gravity="center"/>
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zhongxin.home.testfor_cnc.widget.gridview.VerticalGridView
+        android:id="@+id/menu"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:scrollbarStyle="insideInset"
+        app:focusOutEnd="true"
+        app:focusOutFront="true"
+        ></com.zhongxin.home.testfor_cnc.widget.gridview.VerticalGridView>
+    <ImageView
+        android:id="@+id/separator"
+        android:layout_width="@dimen/dimen_1dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/menu"
+        android:src="@drawable/icon_split"/>
+    <FrameLayout
+        android:id="@+id/contain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/separator"></FrameLayout>
+</RelativeLayout>

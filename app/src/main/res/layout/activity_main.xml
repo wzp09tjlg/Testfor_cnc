@@ -1,0 +1,291 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/dimen_16dp"
+    android:paddingRight="@dimen/dimen_16dp"
+    android:paddingTop="@dimen/dimen_16dp"
+    android:paddingBottom="@dimen/dimen_16dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg_home"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical">
+   <Button
+       android:id="@+id/cnc_btn_shareprefence"
+       android:layout_width="@dimen/dimen_200dp"
+       android:layout_height="@dimen/dimen_100dp"
+       android:layout_centerHorizontal="true"
+       android:text="@string/shareprefence"
+       android:gravity="center"
+       />
+
+    <Button
+        android:id="@+id/cnc_btn_file"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_shareprefence"
+        android:layout_centerHorizontal="true"
+        android:text="@string/file"
+         android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cnc_btn_json"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_file"
+        android:layout_centerHorizontal="true"
+        android:text="@string/json"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cnc_btn_sqlite"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@+id/cnc_btn_json"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sqlite"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cnc_btn_content_provider"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@+id/cnc_btn_sqlite"
+        android:layout_centerHorizontal="true"
+        android:text="@string/content_provider"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cnc_btn_service"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_content_provider"
+        android:layout_centerHorizontal="true"
+        android:text="@string/service"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cnc_btn_reflection"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_service"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reflection"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cnc_btn_fragment"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_reflection"
+        android:layout_centerHorizontal="true"
+        android:text="@string/fragment"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cnc_btn_timer"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_fragment"
+        android:layout_centerHorizontal="true"
+        android:text="@string/fragment"
+        android:gravity="center"
+        />
+
+
+    <Button
+        android:id="@+id/cnc_btn_picture"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_timer"
+        android:layout_centerHorizontal="true"
+        android:text="@string/picture"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cnc_btn_dialog"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_picture"
+        android:layout_centerHorizontal="true"
+        android:text="@string/dialog"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cnc_btn_check_id"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_dialog"
+        android:layout_centerHorizontal="true"
+        android:text="@string/check_id"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cnc_btn_scoller_city"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_check_id"
+        android:layout_centerHorizontal="true"
+        android:text="@string/scoller_city"
+        android:gravity="center"
+        />
+
+    <Button
+    android:id="@+id/cnc_btn_slidingmenu"
+    android:layout_width="@dimen/dimen_200dp"
+    android:layout_height="@dimen/dimen_100dp"
+    android:layout_below="@id/cnc_btn_scoller_city"
+    android:layout_centerHorizontal="true"
+    android:text="@string/slidingmenu"
+    android:gravity="center"
+    />
+
+    <Button
+        android:id="@+id/cnc_btn_check_number_local"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_slidingmenu"
+        android:layout_centerHorizontal="true"
+        android:text="@string/check_number"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cnc_btn_self_view"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_check_number_local"
+        android:layout_centerHorizontal="true"
+        android:text="@string/self_view"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cnc_btn_surfaceview"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_self_view"
+        android:layout_centerHorizontal="true"
+        android:text="@string/surfaceview"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cnc_btn_surfaceview_new"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_surfaceview"
+        android:layout_centerHorizontal="true"
+        android:text="@string/surfaceview_new"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cnc_btn_handler"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_surfaceview_new"
+        android:layout_centerHorizontal="true"
+        android:text="@string/handler"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cnc_btn_popupwindow"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_handler"
+        android:layout_centerHorizontal="true"
+        android:text="@string/popupwindow"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cnc_btn_event_bus"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_popupwindow"
+        android:layout_centerHorizontal="true"
+        android:text="@string/eventbus"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cnc_btn_layout"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_event_bus"
+        android:layout_centerHorizontal="true"
+        android:text="@string/layout"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/cnc_btn_other_apk"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_layout"
+        android:layout_centerHorizontal="true"
+        android:text="@string/other_apk"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/cnc_btn_md5"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_other_apk"
+        android:layout_centerHorizontal="true"
+        android:text="@string/md5"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/cnc_btn_jsonxml"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_md5"
+        android:text="json_xml"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/cnc_btn_sort"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_jsonxml"
+        android:text="@string/sort"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/cnc_btn_keypad"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_sort"
+        android:text="@string/keypad"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cnc_btn_toast"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_below="@id/cnc_btn_keypad"
+        android:text="@string/toast"
+        android:gravity="center"
+        />
+</LinearLayout>
+    </ScrollView>
+</RelativeLayout>

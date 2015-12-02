@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="@dimen/dimen_16dp"
+    android:background="@drawable/bg_home"
+    >
+
+    <Button
+        android:id="@+id/cnc_btn_read_contract"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_150dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/read_content_provider"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cnc_btn_read_message"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="@dimen/dimen_150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/cnc_btn_read_contract"
+        android:text="@string/read_msm"
+        android:gravity="center"
+        />
+
+    <ListView
+        android:id="@+id/cnc_lv_data"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="wrap_content"
+        ></ListView>
+
+    <ListView
+        android:id="@+id/cnc_lv_message"
+        android:layout_width="@dimen/dimen_200dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/cnc_btn_read_contract"
+        />
+
+</RelativeLayout>

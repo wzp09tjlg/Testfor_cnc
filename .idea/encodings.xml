@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/city.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/BaseGridView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/FacetProvider.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/FacetProviderAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/Grid.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/GridLayoutManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/HorizontalGridView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/ItemAlignment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/ItemAlignmentFacet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/ItemAlignmentFacetHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/OnChildLaidOutListener.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/OnChildSelectedListener.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/OnChildViewHolderSelectedListener.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/ScrollbarHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/StaggeredGrid.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/StaggeredGridDefault.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/TraceHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/TraceHelperJbmr2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/VerticalGridView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/ViewsStateBundle.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/gridview/WindowAlignment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/slidingmenu/CanvasTransformerBuilder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/slidingmenu/CustomViewAbove.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/slidingmenu/CustomViewBehind.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/slidingmenu/MenuInterface.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/slidingmenu/SlidingMenu.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/slidingmenu/app/SlidingActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/slidingmenu/app/SlidingActivityBase.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/slidingmenu/app/SlidingActivityHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/slidingmenu/app/SlidingFragmentActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/slidingmenu/app/SlidingListActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/zhongxin/home/testfor_cnc/widget/slidingmenu/app/SlidingPreferenceActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_home.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_titlebar.9.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/cat3.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/home_page.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/icon_center.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/icon_down.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/icon_left.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/icon_left_split.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/icon_right.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/icon_search.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/icon_split.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/icon_top.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/slidingmenumain.xml" charset="UTF-8" />
+  </component>
+</project>
+
